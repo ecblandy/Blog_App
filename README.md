@@ -11,7 +11,6 @@ Este é um projeto de fullstack de um sistema de blog simples desenvolvido utili
 - **Segurança**: As senhas dos usuários são armazenadas de forma segura utilizando o passport e bcrypt para hashing.
 
 ## Tecnologias Utilizadas
-
 - **Node.js** - Ambiente de execução JavaScript no servidor.
 - **Express** - Framework web para Node.js.
 - **Passport.js** - Middleware de autenticação para Node.js.
