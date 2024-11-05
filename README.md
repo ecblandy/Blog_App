@@ -47,4 +47,4 @@ Este é um projeto de fullstack de um sistema de blog simples desenvolvido utili
 
 OBS FINAL: O cadastro de usuarios por padrão, defini todos como ADM para terem acesso a rota de ADM.
 
-![Projeto BlogApp](/public/img/image.png)
+[![Projeto BlogApp](/public/img/image.png)](https://blog-app-6mun.onrender.com)
