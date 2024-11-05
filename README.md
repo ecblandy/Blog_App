@@ -45,6 +45,14 @@ Este é um projeto de fullstack de um sistema de blog simples desenvolvido utili
 - Então acesse postagens:
   localhost:4000/admin/postagens
 
+## SITE
+
+- Para acessar basta está na rota padrão https://blog-app-6mun.onrender.com
+- Então acesse categorias:
+  https://blog-app-6mun.onrender.com/admin/categorias
+- Então acesse postagens:
+  https://blog-app-6mun.onrender.com/admin/postagens
+
 OBS FINAL: O cadastro de usuarios por padrão, defini todos como ADM para terem acesso a rota de ADM.
 
 [![Projeto BlogApp](/public/img/image.png)](https://blog-app-6mun.onrender.com)
