@@ -36,15 +36,7 @@ Este é um projeto de fullstack de um sistema de blog simples desenvolvido utili
 
 2. Acesso ao painel de ADM:
 
-## GIT CLONE
-
-- Para acessar basta está na rota padrão localhost:4000/
-- Então acesse categorias:
-  localhost:4000/admin/categorias
-- Então acesse postagens:
-  localhost:4000/admin/postagens
-
-## SITE
+## SITE RENDER
 
 - Para acessar basta está na rota padrão https://blog-app-6mun.onrender.com
 - Então acesse categorias:
