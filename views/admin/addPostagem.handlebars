@@ -1,34 +1,33 @@
 {{#each erros}}
-<div class="alert alert-danger">{{this.text}}</div>
+  <div class='alert alert-danger'>{{this.text}}</div>
 {{/each}}
 
+<div class='card'>
+  <div class='card-body'>
+    <h4>Nova postagem</h4>
+    <form action='/admin/postagens/nova' method='POST'>
+      <label for='titulo'>Titulo: </label>
+      <input type='text' name='titulo' class='form-control' />
 
-<div class="card">
-    <div class="card-body">
-        <h4>Nova postagem</h4>
-        <form action="/admin/postagens/nova" method="POST">
-            <label for="titulo">Titulo: </label>
-            <input type="text" name="titulo" class="form-control">
+      <label for='slug'>Slug: </label>
+      <input type='text' name='slug' class='form-control' />
 
-            <label for="slug">Slug: </label>
-            <input type="text" name="slug" class="form-control">
+      <label for='descricao'>Descrição: </label>
+      <input type='text' name='descricao' class='form-control' />
 
-            <label for="descricao">Descrição: </label>
-            <input type="text" name="descricao" class="form-control">
+      <label for='conteudo'>Conteúdo: </label>
+      <textarea name='conteudo' class='form-control'></textarea>
 
-            <label for="conteudo">Conteúdo: </label>
-            <textarea name="conteudo" class="form-control"></textarea>
+      <label for='categoria'>Categoria: </label>
+      <select name='categoria' class='form-select'>
+        {{#each categorias}}
+          <option value={{this._id}}>{{this.name}}</option>
+        {{else}}
+          <option value='0'>Nenhuma categoria registrada</option>
+        {{/each}}
+      </select>
 
-            <label for="categoria">Categoria: </label>
-            <select name="categoria" class="form-select">
-                {{#each categorias}}
-                <option value={{this._id}}>{{this.name}}</option>
-                {{else}}
-                <option value="0">Nenhuma categoria registrada</option>
-                {{/each}}
-            </select>
-
-            <button class="btn btn-success mt-3" type="submit">Criar postagem</button>
-        </form>
-    </div>
+      <button class='btn btn-success mt-3' type='submit'>Criar postagem</button>
+    </form>
+  </div>
 </div>

@@ -3,18 +3,18 @@ const Schema = mongoose.Schema
 
 // Definindo model
 const Categorias = new Schema({
-    name: {
-        type: String,
-        require: true
-    },
-    slug: {
-        type: String,
-        require: true
-    },
-    date: {
-        type: Date,
-        default: Date.now()
-    }
+  name: {
+    type: String,
+    require: true
+  },
+  slug: {
+    type: String,
+    require: true
+  },
+  date: {
+    type: Date,
+    default: Date.now()
+  }
 })
 
 // Collection
